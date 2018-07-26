@@ -25,10 +25,12 @@ begin Unicode > use(main)
 
 c === NULL KEYS ===
 store(nullKeys) [SHIFT K_BKQUOTE]
-store (addNullKeys) [RALT K_BKQUOTE] [RALT K_1] [RALT K_P] [RALT K_S] \
                 
-store (addNullKeys) [RALT K_BKQUOTE] [RALT K_1] [RALT K_P] [RALT K_S] \
+store(addNullKeys) [RALT K_BKQUOTE] [RALT K_1] [RALT K_P] [RALT K_S] \
                     [RALT K_K] [RALT K_L] [RALT K_oE2] [RALT K_X] [RALT K_C] [RALT K_M] [RALT K_COMMA]
+store(addNullKeysOSX) [LALT K_BKQUOTE] [LALT K_1] [LALT K_P] [LALT K_S] \
+                    [LALT K_K] [LALT K_L] [LALT K_oE2] [LALT K_X] [LALT K_C] [LALT K_M] [LALT K_COMMA]
+
 
 c === ALPHABETIC STORES ===
 store(alphaKey) [K_2] \
@@ -95,7 +97,7 @@ store(alphaChar) U+00e9 \
                  U+0062 U+0042 \
                  U+006e U+004e
 
-c ʒƷ ɛƐ ɗƊ ƴƳ ʊƱ ɩƖ ɔƆ ǝƎ ɖƉ ƒƑ ɣƔ ĥĤ ɲƝ ʋƲ ɓƁ ŋŊ ɨƗ
+c ʒƷ ɛƐ ɗƊ ƴƳ ʊƱ ɩƖ ɔƆ ɔƆ ǝƎ ɖƉ ƒƑ ɣƔ ĥĤ ɲƝ ʋƲ ɓƁ ŋŊ ɨƗ
 store(extAlphaKey) [RALT K_W] [SHIFT RALT K_W] \
                    [RALT K_R] [SHIFT RALT K_R] \
                    [RALT K_T] [SHIFT RALT K_T] \
@@ -104,7 +106,7 @@ store(extAlphaKey) [RALT K_W] [SHIFT RALT K_W] \
                    [RALT K_I] [SHIFT RALT K_I] \
                    [RALT K_O] [SHIFT RALT K_O] \
                    [RALT K_P] [SHIFT RALT K_P] \
-                   [RALT K_A] [SHIFT RALT K_A] \
+                   [RALT K_Q] [SHIFT RALT K_Q] \
                    [RALT K_D] [SHIFT RALT K_D] \
                    [RALT K_F] [SHIFT RALT K_F] \
                    [RALT K_G] [SHIFT RALT K_G] \
@@ -114,6 +116,25 @@ store(extAlphaKey) [RALT K_W] [SHIFT RALT K_W] \
                    [RALT K_B] [SHIFT RALT K_B] \
                    [RALT K_N] [SHIFT RALT K_N] \
                    [RALT K_J] [SHIFT RALT K_J]
+
+store(extAlphaKeyOSX) [LALT K_W] [SHIFT LALT K_W] \
+                   [LALT K_R] [SHIFT LALT K_R] \
+                   [LALT K_T] [SHIFT LALT K_T] \
+                   [LALT K_Y] [SHIFT LALT K_Y] \
+                   [LALT K_U] [SHIFT LALT K_U] \
+                   [LALT K_I] [SHIFT LALT K_I] \
+                   [LALT K_O] [SHIFT LALT K_O] \
+                   [LALT K_P] [SHIFT LALT K_P] \
+                   [LALT K_Q] [SHIFT LALT K_Q] \
+                   [LALT K_D] [SHIFT LALT K_D] \
+                   [LALT K_F] [SHIFT LALT K_F] \
+                   [LALT K_G] [SHIFT LALT K_G] \
+                   [LALT K_H] [SHIFT LALT K_H] \
+                   [LALT K_COLON] [SHIFT LALT K_COLON] \
+                   [LALT K_V] [SHIFT LALT K_V] \
+                   [LALT K_B] [SHIFT LALT K_B] \
+                   [LALT K_N] [SHIFT LALT K_N] \
+                   [LALT K_J] [SHIFT LALT K_J]
 
 store(extAlphaTouch) [T_EZH] [SHIFT T_EZH] \
     	   	   	   	 [T_OPEN_E] [SHIFT T_OPEN_E] \
@@ -198,6 +219,10 @@ store(addPunctuationKey) [RALT K_E] [RALT K_0] [RALT K_3] [RALT K_4] [RALT K_5] 
                          [RALT K_6] [RALT K_8] [RALT K_9] [RALT K_RBRKT] [RALT K_HYPHEN] \
                          [RALT K_EQUAL]
 
+store(addPunctuationKeyOSX) [LALT K_E] [LALT K_0] [LALT K_3] [LALT K_4] [LALT K_5] \
+                         [LALT K_6] [LALT K_8] [LALT K_9] [LALT K_RBRKT] [LALT K_HYPHEN] \
+                         [LALT K_EQUAL]
+
 store(addPunctuationChar) U+20ac U+0040 U+0023 U+007b U+005b \
                           U+007c U+005c U+005e U+00a4 U+005d \
                           U+007d
@@ -211,7 +236,8 @@ c === DEADKEY stores ===
 c --- acute U+0301 ---
 store(dkf00b4) U+0020 U+0041 U+0061 U+0045 U+0065 U+0049 U+0069 U+004F U+006F U+0055 U+0075 U+004D U+006D U+004E U+006E         c AaEeIiOoUuMmNn
 store(dkt00b4) U+00b4 U+00C1 U+00E1 U+00C9 U+00E9 U+00CD U+00ED U+00D3 U+00F3 U+00DA U+00FA U+1E3E U+1E3F U+0143 U+0144         c ´ Á á É é Í í Ó ó Ú ú Ḿ ḿ Ń ń
-store(dkf00b4Other) [SHIFT RALT K_E] [RALT K_E] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_A] [RALT K_A] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_N] [RALT K_N] 
+store(dkf00b4Other) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_N] [RALT K_N] 
+store(dkf00b4OtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] [SHIFT LALT K_N] [LALT K_N] 
 store(dkt00b4Other) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A U+014A U+014B    c ƐɛƖɩƆɔƎǝƲʋƱʊŊŋ
 c Touch related (longpress)
 store(acuteTouchKey) [SHIFT T_A_02] [T_A_02] [SHIFT T_E_02] [T_E_02] [SHIFT T_I_02] [T_I_02] [SHIFT T_O_02] [T_O_02] [SHIFT T_U_02] [T_U_02] [SHIFT T_M_02] [T_M_02] [SHIFT T_N_02] [T_N_02]
@@ -222,7 +248,8 @@ store(acuteTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01
 c --- circumflex U+0302 ---
 store(dkf005e) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 U+0068 U+0048                 c a A e E i I o O u U h H
 store(dkt005e) U+005e U+00e2 U+00c2 U+00ea U+00ca U+00ee U+00ce U+00f4 U+00d4 U+00fb U+00db U+0125 U+0124                 c ^ â Â ê Ê î Î ô Ô û Û ĥ Ĥ
-store(dkf005eOther) [SHIFT RALT K_E] [RALT K_E] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_A] [RALT K_A] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] 
+store(dkf005eOther) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] 
+store(dkf005eOtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] 
 store(dkt005eOther) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A      c ƐɛƖɩƆɔƎǝƲʋƱʊ
 c Touch related (longpress)
 store(circumflexTouchKey) [T_A_03] [SHIFT T_A_03] [T_E_03] [SHIFT T_E_03] [T_I_03] [SHIFT T_I_03] [T_O_03] [SHIFT T_O_03] [T_U_03] [SHIFT T_U_03]
@@ -233,7 +260,8 @@ store(circumflexTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E
 c --- grave U+0300 ---
 store(dkf0060) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 U+006E U+004E                 c a A e E i I o O u U n N
 store(dkt0060) U+0060 U+00e0 U+00c0 U+00e8 U+00c8 U+00ec U+00cc U+00f2 U+00d2 U+00f9 U+00d9 U+01f9 U+01f8                 c ` à À è È ì Ì ò Ò ù Ù ǹ Ǹ
-store(dkf0060Other) [SHIFT RALT K_E] [RALT K_E] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_A] [RALT K_A] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_COLON] [RALT K_COLON] [SHIFT RALT K_N] [RALT K_N] 
+store(dkf0060Other) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_COLON] [RALT K_COLON] [SHIFT RALT K_N] [RALT K_N] 
+store(dkf0060OtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] [SHIFT LALT K_COLON] [LALT K_COLON] [SHIFT LALT K_N] [LALT K_N] 
 store(dkt0060Other) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A U+004d U+006d U+014A U+014B      c ƐɛƖɩƆɔƎǝƲʋƱʊMmŊŋ
 c Touch related (longpress)
 store(graveTouchKey) [T_A_01] [SHIFT T_A_01] [T_E_01] [SHIFT T_E_01] [T_I_01] [SHIFT T_I_01] [T_O_01] [SHIFT T_O_01] [T_U_01] [SHIFT T_U_01] [T_N_01] [SHIFT T_N_01]
@@ -244,7 +272,8 @@ store(graveTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01
 c --- tilde U+0303 ---
 store(dkf007e) U+0020 U+0061 U+0041 U+006e U+004e U+006f U+004f U+0065 U+0045 U+0069 U+0049 U+0075 U+0055                  c a A n N o O e E i I u U
 store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5 U+1EBD U+1EBC U+0129 U+0128 U+0169 U+0168                  c ~ ã Ã ñ Ñ õ Õ ẽ Ẽ ĩ Ĩ ũ Ũ
-store(dkf007eOther) [RALT K_E] [SHIFT RALT K_E] [RALT K_O] [SHIFT RALT K_O] [RALT K_A] [SHIFT RALT K_A]
+store(dkf007eOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
+store(dkf007eOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
 store(dkt007eOther) U+025B U+0190 U+0254 U+0186 U+01DD U+018E    c ɛƐɔƆǝƎ
 c Touch related (longpress)
 store(tildeTouchKey) [T_A_04] [SHIFT T_A_04] [T_N_04] [SHIFT T_N_04] [T_O_04] [SHIFT T_O_04] [T_E_04] [SHIFT T_E_04] [T_I_04] [SHIFT T_I_04] [T_U_04] [SHIFT T_U_04]
@@ -262,7 +291,8 @@ store(diaeresisTouchChar) U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d
 c --- macron U+0304 ---
 store(dkf00af) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055     c AaEeIiOoUu
 store(dkt00af) U+00af U+0101 U+0100 U+0113 U+0112 U+012B U+012A U+014D U+014C U+016B U+016A    c ¯ ā   Ā   ē   Ē   ī   Ī   ō   Ō   ū   Ū
-store(dkf00afOther) [RALT K_E] [SHIFT RALT K_E] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_A] [SHIFT RALT K_A] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U]
+store(dkf00afOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U]
+store(dkf00afOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U]
 store(dkt00afOther) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1 c ɛƐɩƖɔƆǝƎʋƲʊƱ
 c Touch related (longpress)
 store(macronTouchKey) [T_A_07] [SHIFT T_A_07] [T_E_07] [SHIFT T_E_07] [T_I_07] [SHIFT T_I_07] [T_O_07] [SHIFT T_O_07] [T_U_07] [SHIFT T_U_07]
@@ -274,7 +304,8 @@ c --- caron U+030C ---
 c store(dkcaron) U+0020 U+0041 U+0061 U+0045 U+0065 U+0049 U+0069 U+004F U+006F U+0055 U+0075 U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A     	c ˇAaEeIiOoUuƐɛƖɩƆɔƎǝƲʋƱʊ
 store(dkf02c7) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055    c aAeEiIoOuU
 store(dkt02c7) U+02c7 U+01CE U+01CD U+011B U+011A U+01D0 U+01CF U+01D2 U+01D1 U+01D4 U+01D3    c ǎǍěĚǐǏǒǑǔǓ
-store(dkf02c7Other) [RALT K_E] [SHIFT RALT K_E] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_A] [SHIFT RALT K_A] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U] 
+store(dkf02c7Other) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U] 
+store(dkf02c7OtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U] 
 store(dkt02c7Other) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1    c ɛƐɩƖɔƆǝƎʋƲʊƱ
 c Touch related (longpress)
 store(caronTouchKey) [T_A_09] [T_A_09] [T_E_09] [T_E_09] [T_I_09] [T_I_09] [T_O_09] [T_O_09] [T_U_09] [T_U_09]
@@ -287,7 +318,8 @@ store(dkf007e_00b4_1) U+006F U+004F U+0075 U+0055      c oOuU
 store(dkt007e_00b4_1) U+1E4D U+1E4C U+1E79 U+1E78      c ṍṌṹṸ
 store(dkf007e_00b4_2) U+0061 U+0041 U+0065 U+0045 U+0069 U+0049      c aAeEiI
 store(dkt007e_00b4_2) U+00E3 U+00C3 U+1EBD U+1EBC U+0129 U+0128      c ãÃẽẼĩĨ
-store(dkf007e_00b4_3) [RALT K_E] [SHIFT RALT K_E] [RALT K_O] [SHIFT RALT K_O] [RALT K_A] [SHIFT RALT K_A]
+store(dkf007e_00b4_3) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
+store(dkf007e_00b4_3OSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
 store(dkt007e_00b4_3) U+025B U+0190 U+0254 U+0186 U+01DD U+018E      c ɛƐɔƆǝƎ
 
 store(tildeAcuteTouchKey) [T_O_06] [SHIFT T_O_06] [T_U_06] [SHIFT T_U_06]
@@ -300,7 +332,8 @@ store(tildeAcuteTouchOtherChar) U+025B U+0190 U+0254 U+0186 U+01DD U+018E
 c --- tilde U+0303 and grave U+0300 ---
 store(dkf007e_0060_2) U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055      c aAeEiIoOuU
 store(dkt007e_0060_2) U+00E3 U+00C3 U+1EBD U+1EBC U+0129 U+0128 U+00F5 U+00D5 U+0169 U+0168      c ãÃẽẼĩĨõÕũŨ
-store(dkf007e_0060_3) [RALT K_E] [SHIFT RALT K_E] [RALT K_O] [SHIFT RALT K_O] [RALT K_A] [SHIFT RALT K_A]  
+store(dkf007e_0060_3) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]  
+store(dkf007e_0060_3OSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]  
 store(dkt007e_0060_3) U+025B U+0190 U+0254 U+0186 U+01DD U+018E      c ɛƐɔƆǝƎ
 
 store(tildeGraveTouchKey) [T_A_05] [SHIFT T_A_05] [T_E_05] [SHIFT T_E_05] [T_I_05] [SHIFT T_I_05] [T_O_05] [SHIFT T_O_05] [T_U_05] [SHIFT T_U_05]
@@ -318,21 +351,23 @@ c === NULL KEYS ===
 
 + any(nullKeys) > nul
 if(&platform != "touch") + any(addNullKeys) > nul
+platform("macosx") + any(addNullKeys) > nul
 
 c === ALPHABETIC ===
 + any(alphaKey) > index(alphaChar, 1)
 
 if(&platform != "touch") + any(extAlphaKey) > index(extAlphaChar, 2)
-if(&platform = "touch") + any(extAlphaTouch) > index(extAlphaChar, 2)
+platform("macosx") + any(extAlphaKeyOSX) > index(extAlphaChar, 2)
+platform("touch") + any(extAlphaTouch) > index(extAlphaChar, 2)
 
 c === Digits and punctuation  ===
 + any(spaceKey) > $space
 + any(digitKey) > index(digitChar,1)
 + any(punctuationKey) > index(punctuationChar,1)
 
-if(&platform = "touch") + any(touchPunctuationKey) > index(touchPunctuationChar,2)
+platform("touch") + any(touchPunctuationKey) > index(touchPunctuationChar,2)
 if(&platform != "touch") + any(addPunctuationKey) > index(addPunctuationChar,2)
-
+platform("macosx") + any(addPunctuationKeyOSX) > index(addPunctuationChar,2)
 
 
 c === DEADKEYS ===
@@ -361,81 +396,110 @@ if(&platform != "touch") + [RALT K_LBRKT] > dk(02c7)
 c --- acute ---
 dk(00b4) + any(dkf00b4) > index(dkt00b4, 2)
 if(&platform != "touch") dk(00b4) + any(dkf00b4Other) > index(dkt00b4Other,3) U+0301  
+platform("macosx") dk(00b4) + any(dkf00b4OtherOSX) > index(dkt00b4Other,3) U+0301  
 if(&platform != "touch") dk(00b4) + [RALT K_P] > U+0254 U+0301
+platform("macosx") dk(00b4) + [LALT K_P] > U+0254 U+0301
 if(&platform != "touch") dk(00b4) + [SHIFT RALT K_P] > U+0186 U+0301
-if(&platform = "touch") + any(acuteTouchKey) > index(acuteTouchChar,2)
-if(&platform = "touch") + any(acuteTouchOtherKey) > index(acuteTouchOtherChar,2) U+0301
+platform("macosx") dk(00b4) + [SHIFT LALT K_P] > U+0186 U+0301
+platform("touch") + any(acuteTouchKey) > index(acuteTouchChar,2)
+platform("touch") + any(acuteTouchOtherKey) > index(acuteTouchOtherChar,2) U+0301
 
 c --- circumflex ---
 dk(005e) + any(dkf005e) > index(dkt005e, 2)
 if(&platform != "touch") dk(005e) + any(dkf005eOther) > index(dkt005eOther, 3) U+0302 
-if(&platform != "touch") dk(005e) + [RALT K_P] > U+0254 U+0302   
+platform("macosx") dk(005e) + any(dkf005eOtherOSX) > index(dkt005eOther, 3) U+0302
+if(&platform != "touch") dk(005e) + [RALT K_P] > U+0254 U+0302 
+platform("macosx") dk(005e) + [LALT K_P] > U+0254 U+0302  
 if(&platform != "touch") dk(005e) + [SHIFT RALT K_P] > U+0186 U+0302 
-if(&platform = "touch") + any(circumflexTouchKey) > index(circumflexTouchChar,2)
-if(&platform = "touch") + any(circumflexTouchOtherKey) > index(circumflexTouchOtherChar,2) U+0302
+platform("macosx") dk(005e) + [SHIFT LALT K_P] > U+0186 U+0302 
+platform("touch") + any(circumflexTouchKey) > index(circumflexTouchChar,2)
+platform("touch") + any(circumflexTouchOtherKey) > index(circumflexTouchOtherChar,2) U+0302
 
 c --- grave ---
 dk(0060) + any(dkf0060) > index(dkt0060, 2)
 if(&platform != "touch") dk(0060) + any(dkf0060Other) > index(dkt0060Other, 3) U+0300
+platform("macosx") dk(0060) + any(dkf0060OtherOSX) > index(dkt0060Other, 3) U+0300
 if(&platform != "touch") dk(0060) + [RALT K_P] > U+0254 U+0300
+platform("macosx") dk(0060) + [LALT K_P] > U+0254 U+0300
 if(&platform != "touch") dk(0060) + [SHIFT RALT K_P] > U+0186 U+0300
-if(&platform = "touch") + any(graveTouchKey) > index(graveTouchChar,2)
-if(&platform = "touch") + any(graveTouchOtherKey) > index(graveTouchOtherChar,2) U+0300
+platform("macosx") dk(0060) + [SHIFT LALT K_P] > U+0186 U+0300
+platform("touch") + any(graveTouchKey) > index(graveTouchChar,2)
+platform("touch") + any(graveTouchOtherKey) > index(graveTouchOtherChar,2) U+0300
 
 c --- tilde ---
 dk(007e) + any(dkf007e) > index(dkt007e, 2)
 if(&platform != "touch") dk(007e) + any(dkf007eOther) > index(dkt007eOther, 3) U+0303
+platform("macosx") dk(007e) + any(dkf007eOtherOSX) > index(dkt007eOther, 3) U+0303
 if(&platform != "touch") dk(007e) + [RALT K_P] > U+0254 U+0303
 if(&platform != "touch") dk(007e) + [SHIFT RALT K_P] > U+0186 U+0303
-if(&platform = "touch") + any(tildeTouchKey) > index(tildeTouchChar,2)
-if(&platform = "touch") + any(tildeTouchOtherKey) > index(tildeTouchOtherChar,2) U+0303
+platform("touch") + any(tildeTouchKey) > index(tildeTouchChar,2)
+platform("touch") + any(tildeTouchOtherKey) > index(tildeTouchOtherChar,2) U+0303
 
 c --- diaeresis ---
 dk(00a8) + any(dkf00a8) > index(dkt00a8, 2)
-if(&platform = "touch") + any(diaeresisTouchKey) > index(diaeresisTouchChar,2)
+platform("touch") + any(diaeresisTouchKey) > index(diaeresisTouchChar,2)
 
 c --- macron ---
 dk(00af) + any(dkf00af) > index(dkt00af, 2)
 if(&platform != "touch") dk(00af) + any(dkf00afOther) > index(dkt00afOther, 3) U+0304
+platform("macosx") dk(00af) + any(dkf00afOtherOSX) > index(dkt00afOther, 3) U+0304
 if(&platform != "touch") dk(00af) + [RALT K_P] > U+0254 U+0304
+platform("macosx") dk(00af) + [LALT K_P] > U+0254 U+0304
 if(&platform != "touch") dk(00af) + [SHIFT RALT K_P] > U+0186 U+0304
-if(&platform = "touch") + any(macronTouchKey) > index(macronTouchChar,2)
-if(&platform = "touch") + any(macronTouchOtherKey) > index(macronTouchOtherChar,2) U+0304
+platform("macosx") dk(00af) + [SHIFT LALT K_P] > U+0186 U+0304
+platform("touch") + any(macronTouchKey) > index(macronTouchChar,2)
+platform("touch") + any(macronTouchOtherKey) > index(macronTouchOtherChar,2) U+0304
 
 c --- caron ---
 dk(02c7) + any(dkf02c7) > index(dkt02c7, 2)
 if(&platform != "touch") dk(02c7) + any(dkf02c7Other) > index(dkt02c7Other, 3) U+030C
+platform("macosx") dk(02c7) + any(dkf02c7OtherOSX) > index(dkt02c7Other, 3) U+030C
 if(&platform != "touch") dk(02c7) + [RALT K_P] > U+0254 U+030C
+platform("macosx") dk(02c7) + [LALT K_P] > U+0254 U+030C
 if(&platform != "touch") dk(02c7) + [SHIFT RALT K_P] > U+0186 U+030C
-if(&platform = "touch") + any(caronTouchKey) > index(caronTouchChar,2)
-if(&platform = "touch") + any(caronTouchOtherKey) > index(caronTouchOtherChar,2) U+030C
+platform("macosx") dk(02c7) + [SHIFT LALT K_P] > U+0186 U+030C
+platform("touch") + any(caronTouchKey) > index(caronTouchChar,2)
+platform("touch") + any(caronTouchOtherKey) > index(caronTouchOtherChar,2) U+030C
 
 c --- tilde and acute ---
 dk(007e) dk(00b4) + any(dkf007e_00b4_1) > index(dkt007e_00b4_1, 3)
 dk(007e) dk(00b4) + any(dkf007e_00b4_2) > index(dkt007e_00b4_2, 3) U+0301
 if(&platform != "touch") dk(007e) dk(00b4) + any(dkf007e_00b4_3) > index(dkt007e_00b4_3, 4) U+0303 U+0301
+platform("macosx") dk(007e) dk(00b4) + any(dkf007e_00b4_3OSX) > index(dkt007e_00b4_3, 4) U+0303 U+0301
 if(&platform != "touch") dk(007e) dk(00b4) + [RALT K_P] > U+0254 U+0303 U+0301
+platform("macosx") dk(007e) dk(00b4) + [LALT K_P] > U+0254 U+0303 U+0301
 if(&platform != "touch") dk(007e) dk(00b4) + [SHIFT RALT K_P] > U+0186 U+0303 U+0301
+platform("macosx") dk(007e) dk(00b4) + [SHIFT LALT K_P] > U+0186 U+0303 U+0301
 dk(00b4) dk(007e) + any(dkf007e_00b4_1) > index(dkt007e_00b4_1, 3)
 dk(00b4) dk(007e) + any(dkf007e_00b4_2) > index(dkt007e_00b4_2, 3) U+0301
 if(&platform != "touch") dk(00b4) dk(007e) + any(dkf007e_00b4_3) > index(dkt007e_00b4_3, 4) U+0303 U+0301
+platform("macosx") dk(00b4) dk(007e) + any(dkf007e_00b4_3OSX) > index(dkt007e_00b4_3, 4) U+0303 U+0301
 if(&platform != "touch") dk(00b4) dk(007e) + [RALT K_P] > U+0254 U+0303 U+0301
+platform("macosx") dk(00b4) dk(007e) + [LALT K_P] > U+0254 U+0303 U+0301
 if(&platform != "touch") dk(00b4) dk(007e) + [SHIFT RALT K_P] > U+0186 U+0303 U+0301
-if(&platform = "touch") + any(tildeAcuteTouchKey) > index(tildeAcuteTouchChar,2)
-if(&platform = "touch") + any(tildeAcuteTouch2Key) > index(tildeAcuteTouch2Char,2) U+0301
-if(&platform = "touch") + any(tildeAcuteTouchOtherKey) > index(tildeAcuteTouchOtherChar,2) U+0303 U+0301
+platform("macosx") dk(00b4) dk(007e) + [SHIFT LALT K_P] > U+0186 U+0303 U+0301
+platform("touch") + any(tildeAcuteTouchKey) > index(tildeAcuteTouchChar,2)
+platform("touch") + any(tildeAcuteTouch2Key) > index(tildeAcuteTouch2Char,2) U+0301
+platform("touch") + any(tildeAcuteTouchOtherKey) > index(tildeAcuteTouchOtherChar,2) U+0303 U+0301
 
 c --- tilde and grave ---
 dk(007e) dk(0060) + any(dkf007e_0060_2) > index(dkt007e_0060_2, 3) U+0300
 if(&platform != "touch") dk(007e) dk(0060) + any(dkf007e_0060_3) > index(dkt007e_0060_3, 4) U+0303 U+0300
+platform("macosx") dk(007e) dk(0060) + any(dkf007e_0060_3OSX) > index(dkt007e_0060_3, 4) U+0303 U+0300
 if(&platform != "touch") dk(007e) dk(0060) + [RALT K_P] > U+0254 U+0303 U+0300
+platform("macosx") dk(007e) dk(0060) + [LALT K_P] > U+0254 U+0303 U+0300
 if(&platform != "touch") dk(007e) dk(0060) + [SHIFT RALT K_P] > U+0186 U+0303 U+0300
+platform("macosx") dk(007e) dk(0060) + [SHIFT LALT K_P] > U+0186 U+0303 U+0300
 dk(0060) dk(007e) + any(dkf007e_0060_2) > index(dkt007e_0060_2, 3) U+0300
-dk(0060) dk(007e) + any(dkf007e_0060_3) > index(dkf007e_0060_3, 3) U+0303 U+0300
-
-if(&platform = "touch") + any(tildeGraveTouchKey) > index(tildeGraveTouchChar,2) U+0300
-if(&platform = "touch") + any(tildeGraveTouchOtherKey) > index(tildeGraveTouchOtherChar,2) U+0303 U+0300   
+if(&platform != "touch") dk(0060) dk(007e) + any(dkf007e_0060_3) > index(dkt007e_0060_3, 3) U+0303 U+0300
+platform("macosx") dk(0060) dk(007e) + any(dkf007e_0060_3OSX) > index(dkt007e_0060_3, 3) U+0303 U+0300
+if(&platform != "touch") dk(0060) dk(007e) + [RALT K_P] > U+0254 U+0303 U+0300
+platform("macosx") dk(0060) dk(007e) + [LALT K_P] > U+0254 U+0303 U+0300
+if(&platform != "touch") dk(0060) dk(007e) + [SHIFT RALT K_P] > U+0186 U+0303 U+0300
+platform("macosx") dk(0060) dk(007e) + [SHIFT LALT K_P] > U+0186 U+0303 U+0300
+platform("touch") + any(tildeGraveTouchKey) > index(tildeGraveTouchChar,2) U+0300
+platform("touch") + any(tildeGraveTouchOtherKey) > index(tildeGraveTouchOtherChar,2) U+0303 U+0300   
 
 c --- cedila ---
-if(&platform = "touch") + [T_C_10] > U+00E7  
-if(&platform = "touch") + [SHIFT T_C_10] > U+00C7 
+platform("touch") + [T_C_10] > U+00E7  
+platform("touch") + [SHIFT T_C_10] > U+00C7 

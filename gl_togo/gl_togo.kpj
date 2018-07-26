@@ -10,11 +10,23 @@
       <ID>id_a2aaad01054e2563c302e5f22ec61544</ID>
       <Filename>gl_togo.kmn</Filename>
       <Filepath>source\gl_togo.kmn</Filepath>
-      <FileVersion>0.7</FileVersion>
+      <FileVersion>0.8</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Pan-Togolais (Globalbility)</Name>
         <Copyright>© 2018 Globalbility</Copyright>
+      </Details>
+    </File>
+    <File>
+      <ID>id_2ff321f8743d19703d1e9d6b52567572</ID>
+      <Filename>gl_togo.kps</Filename>
+      <Filepath>source\gl_togo.kps</Filepath>
+      <FileVersion>0.8</FileVersion>
+      <FileType>.kps</FileType>
+      <Details>
+        <Name>Pan-Togolais</Name>
+        <Copyright>© 2018 Globalbility</Copyright>
+        <Version>0.8</Version>
       </Details>
     </File>
     <File>
@@ -24,42 +36,6 @@
       <FileVersion></FileVersion>
       <FileType>.ico</FileType>
       <ParentFileID>id_a2aaad01054e2563c302e5f22ec61544</ParentFileID>
-    </File>
-    <File>
-      <ID>id_2ff321f8743d19703d1e9d6b52567572</ID>
-      <Filename>gl_togo.kps</Filename>
-      <Filepath>source\gl_togo.kps</Filepath>
-      <FileVersion>0.7</FileVersion>
-      <FileType>.kps</FileType>
-      <Details>
-        <Name>Pan-Togolais</Name>
-        <Copyright>© 2018 Globalbility</Copyright>
-        <Version>0.7</Version>
-      </Details>
-    </File>
-    <File>
-      <ID>id_c8529eee2e27b6c4aa78f7ae2c479ede</ID>
-      <Filename>gl_togo.js</Filename>
-      <Filepath>source\..\build\gl_togo.js</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.js</FileType>
-      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
-    </File>
-    <File>
-      <ID>id_638485765feb8cdb71cd97c315b30e3a</ID>
-      <Filename>gl_togo.kvk</Filename>
-      <Filepath>source\..\build\gl_togo.kvk</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kvk</FileType>
-      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
-    </File>
-    <File>
-      <ID>id_922b693121ee5b7c73f413936971920b</ID>
-      <Filename>gl_togo.kmx</Filename>
-      <Filepath>source\..\build\gl_togo.kmx</Filepath>
-      <FileVersion></FileVersion>
-      <FileType>.kmx</FileType>
-      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
     </File>
     <File>
       <ID>id_edab03eae19b6e4b0226506c64a77995</ID>
@@ -123,6 +99,30 @@
       <Filepath>source\welcome\welcome-fr.htm</Filepath>
       <FileVersion></FileVersion>
       <FileType>.htm</FileType>
+      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
+    </File>
+    <File>
+      <ID>id_c8529eee2e27b6c4aa78f7ae2c479ede</ID>
+      <Filename>gl_togo.js</Filename>
+      <Filepath>source\..\build\gl_togo.js</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.js</FileType>
+      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
+    </File>
+    <File>
+      <ID>id_638485765feb8cdb71cd97c315b30e3a</ID>
+      <Filename>gl_togo.kvk</Filename>
+      <Filepath>source\..\build\gl_togo.kvk</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kvk</FileType>
+      <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
+    </File>
+    <File>
+      <ID>id_922b693121ee5b7c73f413936971920b</ID>
+      <Filename>gl_togo.kmx</Filename>
+      <Filepath>source\..\build\gl_togo.kmx</Filepath>
+      <FileVersion></FileVersion>
+      <FileType>.kmx</FileType>
       <ParentFileID>id_2ff321f8743d19703d1e9d6b52567572</ParentFileID>
     </File>
   </Files>
