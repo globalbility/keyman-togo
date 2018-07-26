@@ -491,8 +491,8 @@ platform("macosx") dk(007e) dk(0060) + [LALT K_P] > U+0254 U+0303 U+0300
 if(&platform != "touch") dk(007e) dk(0060) + [SHIFT RALT K_P] > U+0186 U+0303 U+0300
 platform("macosx") dk(007e) dk(0060) + [SHIFT LALT K_P] > U+0186 U+0303 U+0300
 dk(0060) dk(007e) + any(dkf007e_0060_2) > index(dkt007e_0060_2, 3) U+0300
-if(&platform != "touch") dk(0060) dk(007e) + any(dkf007e_0060_3) > index(dkt007e_0060_3, 3) U+0303 U+0300
-platform("macosx") dk(0060) dk(007e) + any(dkf007e_0060_3OSX) > index(dkt007e_0060_3, 3) U+0303 U+0300
+if(&platform != "touch") dk(0060) dk(007e) + any(dkf007e_0060_3) > index(dkt007e_0060_3, 4) U+0303 U+0300
+platform("macosx") dk(0060) dk(007e) + any(dkf007e_0060_3OSX) > index(dkt007e_0060_3, 4) U+0303 U+0300
 if(&platform != "touch") dk(0060) dk(007e) + [RALT K_P] > U+0254 U+0303 U+0300
 platform("macosx") dk(0060) dk(007e) + [LALT K_P] > U+0254 U+0303 U+0300
 if(&platform != "touch") dk(0060) dk(007e) + [SHIFT RALT K_P] > U+0186 U+0303 U+0300

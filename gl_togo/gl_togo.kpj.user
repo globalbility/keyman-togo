@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_a2aaad01054e2563c302e5f22ec61544</ID>
@@ -27,6 +27,18 @@
     <FileState>
       <ID>id_b1fcdee00eb41370a438984d95ef50a7</ID>
       <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c8529eee2e27b6c4aa78f7ae2c479ede</ID>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_638485765feb8cdb71cd97c315b30e3a</ID>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_922b693121ee5b7c73f413936971920b</ID>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kmx</FullPath>
     </FileState>
     <FileState>
       <ID>id_edab03eae19b6e4b0226506c64a77995</ID>
@@ -60,31 +72,19 @@
       <ID>id_5e49098be4ea850350012426fdb2f5ed</ID>
       <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\welcome-fr.htm</FullPath>
     </FileState>
-    <FileState>
-      <ID>id_c8529eee2e27b6c4aa78f7ae2c479ede</ID>
-      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.js</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_638485765feb8cdb71cd97c315b30e3a</ID>
-      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kvk</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_922b693121ee5b7c73f413936971920b</ID>
-      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kmx</FullPath>
-    </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
-      <Filename>gl_togo.kps</Filename>
-      <FileType>.kps</FileType>
-      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kps</FullPath>
-    </File>
-    <File>
-      <ID>id_MRU1</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>gl_togo.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kps</FullPath>
     </File>
     <File>
       <ID>id_MRU2</ID>
