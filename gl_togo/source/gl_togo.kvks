@@ -137,7 +137,6 @@
       <key vkey="K_U">ʊ</key>
       <key vkey="K_I">ɩ</key>
       <key vkey="K_O">ɔ</key>
-      <key vkey="K_A">ǝ</key>
       <key vkey="K_D">ɖ</key>
       <key vkey="K_F">ƒ</key>
       <key vkey="K_G">ɣ</key>
@@ -150,6 +149,7 @@
       <key vkey="K_7">◌̀</key>
       <key vkey="K_J">ɨ</key>
       <key vkey="K_P">ɔ</key>
+      <key vkey="K_Q">ǝ</key>
     </layer>
     <layer shift="SRA">
       <key vkey="K_W">Ʒ</key>
@@ -159,7 +159,6 @@
       <key vkey="K_U">Ʊ</key>
       <key vkey="K_I">Ɩ</key>
       <key vkey="K_O">Ɔ</key>
-      <key vkey="K_A">Ǝ</key>
       <key vkey="K_D">Ɖ</key>
       <key vkey="K_F">Ƒ</key>
       <key vkey="K_G">Ɣ</key>
@@ -170,6 +169,7 @@
       <key vkey="K_N">Ŋ</key>
       <key vkey="K_J">Ɨ</key>
       <key vkey="K_P">Ɔ</key>
+      <key vkey="K_Q">Ǝ</key>
     </layer>
     <layer shift="LCLA">
       <key vkey="K_2">◌̃</key>

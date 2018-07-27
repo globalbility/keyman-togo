@@ -11,14 +11,10 @@ c Released under the MIT license.
 store(&Version) "10.0"
 store(&NAME) 'Pan-Togolais (Globalbility)'
 store(&COPYRIGHT) '© 2018 Globalbility'
-c store(&LANGUAGE) 'x040C'
-c store(&WINDOWSLANGUAGES) 'x040C'
 store(&VISUALKEYBOARD) 'gl_togo.kvks'
-store(&KEYBOARDVERSION) '0.7'
-c store(&ETHNOLOGUECODE) 'adq ade ahl ajg aks keu blo kpo cko ayg bib ntr ewe fon fue fra gej gux ife kbp xkb xon bqg kus las dop maw mfq mos nmz bud gng mql tbz kdh soy beh xwl'
+store(&KEYBOARDVERSION) '0.8'
 store(&BITMAP) 'gl_togo.ico'
-c store(&capsalwaysoff) "1"
-store(&LAYOUTFILE) 'gl_togo-layout.js'
+store(&LAYOUTFILE) 'gl_togo.keyman-touch-layout'
 store(&TARGETS) 'any'
 
 begin Unicode > use(main)
@@ -234,7 +230,7 @@ store(touchPunctuationChar) U+002E U+002C U+2039 U+203A U+00AB U+00BB U+0027 U+0
 c === DEADKEY stores ===
 
 c --- acute U+0301 ---
-store(dkf00b4) U+0020 U+0041 U+0061 U+0045 U+0065 U+0049 U+0069 U+004F U+006F U+0055 U+0075 U+004D U+006D U+004E U+006E         c AaEeIiOoUuMmNn
+store(dkf00b4) [K_SPACE] [SHIFT K_Q] [K_Q] [SHIFT K_E] [K_E] [SHIFT K_I] [K_I] [SHIFT K_O] [K_O] [SHIFT K_U] [K_U] [SHIFT K_M] [K_M] [SHIFT K_N] [K_N]         c AaEeIiOoUuMmNn
 store(dkt00b4) U+00b4 U+00C1 U+00E1 U+00C9 U+00E9 U+00CD U+00ED U+00D3 U+00F3 U+00DA U+00FA U+1E3E U+1E3F U+0143 U+0144         c ´ Á á É é Í í Ó ó Ú ú Ḿ ḿ Ń ń
 store(dkf00b4Other) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_N] [RALT K_N] 
 store(dkf00b4OtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] [SHIFT LALT K_N] [LALT K_N] 
@@ -246,7 +242,7 @@ store(acuteTouchOtherKey) [SHIFT T_OPEN_E_02] [T_OPEN_E_02] [SHIFT T_IOTA_02] [T
 store(acuteTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A U+014A U+014B    c ƐɛƖɩƆɔƎǝƲʋƱʊŊŋ
 
 c --- circumflex U+0302 ---
-store(dkf005e) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 U+0068 U+0048                 c a A e E i I o O u U h H
+store(dkf005e) [K_SPACE] [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U] [K_H] [SHIFT K_H]                 c a A e E i I o O u U h H
 store(dkt005e) U+005e U+00e2 U+00c2 U+00ea U+00ca U+00ee U+00ce U+00f4 U+00d4 U+00fb U+00db U+0125 U+0124                 c ^ â Â ê Ê î Î ô Ô û Û ĥ Ĥ
 store(dkf005eOther) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] 
 store(dkf005eOtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] 
@@ -258,7 +254,7 @@ store(circumflexTouchOtherKey) [SHIFT T_OPEN_E_03] [T_OPEN_E_03] [SHIFT T_IOTA_0
 store(circumflexTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A      c ƐɛƖɩƆɔƎǝƲʋƱʊ
 
 c --- grave U+0300 ---
-store(dkf0060) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 U+006E U+004E                 c a A e E i I o O u U n N
+store(dkf0060) [K_SPACE] [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U] [K_N] [SHIFT K_N]                 c a A e E i I o O u U n N
 store(dkt0060) U+0060 U+00e0 U+00c0 U+00e8 U+00c8 U+00ec U+00cc U+00f2 U+00d2 U+00f9 U+00d9 U+01f9 U+01f8                 c ` à À è È ì Ì ò Ò ù Ù ǹ Ǹ
 store(dkf0060Other) [SHIFT RALT K_R] [RALT K_R] [SHIFT RALT K_I] [RALT K_I] [SHIFT RALT K_O] [RALT K_O] [SHIFT RALT K_Q] [RALT K_Q] [SHIFT RALT K_V] [RALT K_V] [SHIFT RALT K_U] [RALT K_U] [SHIFT RALT K_COLON] [RALT K_COLON] [SHIFT RALT K_N] [RALT K_N] 
 store(dkf0060OtherOSX) [SHIFT LALT K_R] [LALT K_R] [SHIFT LALT K_I] [LALT K_I] [SHIFT LALT K_O] [LALT K_O] [SHIFT LALT K_Q] [LALT K_Q] [SHIFT LALT K_V] [LALT K_V] [SHIFT LALT K_U] [LALT K_U] [SHIFT LALT K_COLON] [LALT K_COLON] [SHIFT LALT K_N] [LALT K_N] 
@@ -270,7 +266,7 @@ store(graveTouchOtherKey) [SHIFT T_OPEN_E_01] [T_OPEN_E_01] [SHIFT T_IOTA_01] [T
 store(graveTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A U+004d U+006d U+014A U+014B
 
 c --- tilde U+0303 ---
-store(dkf007e) U+0020 U+0061 U+0041 U+006e U+004e U+006f U+004f U+0065 U+0045 U+0069 U+0049 U+0075 U+0055                  c a A n N o O e E i I u U
+store(dkf007e) [K_SPACE] [K_A] [SHIFT K_A] [K_N] [SHIFT K_N] [K_O] [SHIFT K_O] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_U] [SHIFT K_U]                  c a A n N o O e E i I u U
 store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5 U+1EBD U+1EBC U+0129 U+0128 U+0169 U+0168                  c ~ ã Ã ñ Ñ õ Õ ẽ Ẽ ĩ Ĩ ũ Ũ
 store(dkf007eOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
 store(dkf007eOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
@@ -282,14 +278,14 @@ store(tildeTouchOtherKey) [T_OPEN_E_04] [SHIFT T_OPEN_E_04] [T_IOTA_04] [SHIFT T
 store(tildeTouchOtherChar) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E
 
 c --- diaeresis U+0308 ---
-store(dkf00a8) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055 U+0079 U+0059   c a A e E i I o O u U y Y
+store(dkf00a8) [K_SPACE] [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U] [K_Y] [SHIFT K_Y]   c a A e E i I o O u U y Y
 store(dkt00a8) U+00a8 U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d6 U+00fc U+00dc U+00ff U+0178   c ¨ ä Ä ë Ë ï Ï ö Ö ü Ü ÿ Ÿ
 c Touch related (longpress)
 store(diaeresisTouchKey) [T_A_08] [SHIFT T_A_08] [T_E_08] [SHIFT T_E_08] [T_I_08] [SHIFT T_I_08] [T_O_08] [SHIFT T_O_08] [T_U_08] [SHIFT T_U_08] [T_Y_08] [SHIFT T_Y_08]
 store(diaeresisTouchChar) U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d6 U+00fc U+00dc U+00ff U+0178
 
 c --- macron U+0304 ---
-store(dkf00af) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055     c AaEeIiOoUu
+store(dkf00af) [K_SPACE] [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]     c AaEeIiOoUu
 store(dkt00af) U+00af U+0101 U+0100 U+0113 U+0112 U+012B U+012A U+014D U+014C U+016B U+016A    c ¯ ā   Ā   ē   Ē   ī   Ī   ō   Ō   ū   Ū
 store(dkf00afOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U]
 store(dkf00afOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U]
@@ -301,8 +297,7 @@ store(macronTouchOtherKey) [T_OPEN_E_07] [SHIFT T_OPEN_E_07] [T_IOTA_07] [SHIFT 
 store(macronTouchOtherChar) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1
 
 c --- caron U+030C ---
-c store(dkcaron) U+0020 U+0041 U+0061 U+0045 U+0065 U+0049 U+0069 U+004F U+006F U+0055 U+0075 U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01DD U+01B2 U+028B U+01B1 U+028A     	c ˇAaEeIiOoUuƐɛƖɩƆɔƎǝƲʋƱʊ
-store(dkf02c7) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055    c aAeEiIoOuU
+store(dkf02c7) [K_SPACE] [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]    c aAeEiIoOuU
 store(dkt02c7) U+02c7 U+01CE U+01CD U+011B U+011A U+01D0 U+01CF U+01D2 U+01D1 U+01D4 U+01D3    c ǎǍěĚǐǏǒǑǔǓ
 store(dkf02c7Other) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U] 
 store(dkf02c7OtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U] 
@@ -314,9 +309,9 @@ store(caronTouchOtherKey) [T_OPEN_E_09] [SHIFT T_OPEN_E_09] [T_IOTA_09] [SHIFT T
 store(caronTouchOtherChar) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1
 
 c --- tilde U+0303 and acute U+0301 ---
-store(dkf007e_00b4_1) U+006F U+004F U+0075 U+0055      c oOuU
+store(dkf007e_00b4_1) [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]      c oOuU
 store(dkt007e_00b4_1) U+1E4D U+1E4C U+1E79 U+1E78      c ṍṌṹṸ
-store(dkf007e_00b4_2) U+0061 U+0041 U+0065 U+0045 U+0069 U+0049      c aAeEiI
+store(dkf007e_00b4_2) [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I]      c aAeEiI
 store(dkt007e_00b4_2) U+00E3 U+00C3 U+1EBD U+1EBC U+0129 U+0128      c ãÃẽẼĩĨ
 store(dkf007e_00b4_3) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
 store(dkf007e_00b4_3OSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
@@ -330,7 +325,7 @@ store(tildeAcuteTouchOtherKey) [T_OPEN_E_06] [SHIFT T_OPEN_E_06] [T_OPEN_O_06] [
 store(tildeAcuteTouchOtherChar) U+025B U+0190 U+0254 U+0186 U+01DD U+018E
 
 c --- tilde U+0303 and grave U+0300 ---
-store(dkf007e_0060_2) U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006F U+004F U+0075 U+0055      c aAeEiIoOuU
+store(dkf007e_0060_2) [K_A] [SHIFT K_A] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]      c aAeEiIoOuU
 store(dkt007e_0060_2) U+00E3 U+00C3 U+1EBD U+1EBC U+0129 U+0128 U+00F5 U+00D5 U+0169 U+0168      c ãÃẽẼĩĨõÕũŨ
 store(dkf007e_0060_3) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]  
 store(dkf007e_0060_3OSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]  

@@ -16,31 +16,13 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.7</Version>
+    <Version URL="">0.8</Version>
     <Name URL="">Pan-Togolais</Name>
     <Copyright URL="">© 2018 Globalbility</Copyright>
     <Author URL=""></Author>
     <WebSite URL=""></WebSite>
   </Info>
   <Files>
-    <File>
-      <Name>..\build\gl_togo.js</Name>
-      <Description>File gl_togo.js</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.js</FileType>
-    </File>
-    <File>
-      <Name>..\build\gl_togo.kvk</Name>
-      <Description>File gl_togo.kvk</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kvk</FileType>
-    </File>
-    <File>
-      <Name>..\build\gl_togo.kmx</Name>
-      <Description>Keyboard Pan-Togolais (Globalbility)</Description>
-      <CopyLocation>0</CopyLocation>
-      <FileType>.kmx</FileType>
-    </File>
     <File>
       <Name>readme-en.htm</Name>
       <Description>File readme-en.htm</Description>
@@ -88,6 +70,24 @@
       <Description>File welcome-fr.htm</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\build\gl_togo.js</Name>
+      <Description>File gl_togo.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\gl_togo.kvk</Name>
+      <Description>File gl_togo.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\gl_togo.kmx</Name>
+      <Description>Keyboard Pan-Togolais (Globalbility)</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
     </File>
   </Files>
   <Keyboards>
