@@ -16,7 +16,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.8</Version>
+    <Version URL="">0.8.1</Version>
     <Name URL="">Pan-Togolais</Name>
     <Copyright URL="">© 2018 Globalbility</Copyright>
     <Author URL=""></Author>
@@ -94,7 +94,7 @@
     <Keyboard>
       <Name>Pan-Togolais (Globalbility)</Name>
       <ID>gl_togo</ID>
-      <Version>0.7</Version>
+      <Version>0.8.1</Version>
       <Languages>
         <Language ID="fr-TG">French (Togo)</Language>
         <Language ID="adq-Latn">Adangbe (Latin)</Language>
