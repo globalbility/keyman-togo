@@ -10,7 +10,7 @@ function Keyboard_gl_togo()
   var keyCodes = keyman.osk.keyCodes;
 
   this.KI="Keyboard_gl_togo";
-  this.KN="Pan-Togolais (Globalbility)";
+  this.KN="TogoKey";
   this.KMINVER="10.0";
   this.KV={F:' 1em "Charis SIL"',K102:1};
   this.KDU=0;

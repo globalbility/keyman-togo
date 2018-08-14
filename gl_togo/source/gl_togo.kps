@@ -85,14 +85,14 @@
     </File>
     <File>
       <Name>..\build\gl_togo.kmx</Name>
-      <Description>Keyboard Pan-Togolais (Globalbility)</Description>
+      <Description>TogoKey Keyboard</Description>
       <CopyLocation>0</CopyLocation>
       <FileType>.kmx</FileType>
     </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Pan-Togolais (Globalbility)</Name>
+      <Name>TogoKey</Name>
       <ID>gl_togo</ID>
       <Version>0.7</Version>
       <Languages>
