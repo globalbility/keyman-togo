@@ -2,11 +2,11 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_a2aaad01054e2563c302e5f22ec61544</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kmn</FullPath>
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
@@ -18,7 +18,7 @@
     </FileState>
     <FileState>
       <ID>id_2ff321f8743d19703d1e9d6b52567572</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kps</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kps</FullPath>
       <IDEState>
         <CodeFont>Courier New|12|   |0</CodeFont>
         <CharFont>Courier New|12|   |0</CharFont>
@@ -26,80 +26,86 @@
     </FileState>
     <FileState>
       <ID>id_b1fcdee00eb41370a438984d95ef50a7</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.ico</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.ico</FullPath>
     </FileState>
     <FileState>
       <ID>id_edab03eae19b6e4b0226506c64a77995</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\readme-en.htm</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\readme-en.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_68e6bd291ea863db8218159be0084fe4</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\readme-fr.htm</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\readme-fr.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_3ac3b950d066da05e389319f554a07ab</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\gl_togoU_.png</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\gl_togoU_.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_3234d07cbe60dd23b5b263ee7b7a3552</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\gl_togoU_RA.png</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\gl_togoU_RA.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_7b78187c1d61c4a8591074bbe8efdebb</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\gl_togoU_S.png</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\gl_togoU_S.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_a9c4705e8f778d01cd9ef483b0cce9e3</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\gl_togoU_SRA.png</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\gl_togoU_SRA.png</FullPath>
     </FileState>
     <FileState>
       <ID>id_9841de3ad09c3f937508e580dbbca0a9</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\welcome-en.htm</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\welcome-en.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_5e49098be4ea850350012426fdb2f5ed</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\welcome\welcome-fr.htm</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\welcome\welcome-fr.htm</FullPath>
     </FileState>
     <FileState>
       <ID>id_c8529eee2e27b6c4aa78f7ae2c479ede</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\..\build\gl_togo.js</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.js</FullPath>
     </FileState>
     <FileState>
       <ID>id_638485765feb8cdb71cd97c315b30e3a</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\..\build\gl_togo.kvk</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kvk</FullPath>
     </FileState>
     <FileState>
       <ID>id_922b693121ee5b7c73f413936971920b</ID>
-      <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\..\build\gl_togo.kmx</FullPath>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\..\build\gl_togo.kmx</FullPath>
     </FileState>
   </FileStates>
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>gl_togo.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>gl_togo.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU1</ID>
+      <ID>id_MRU2</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU3</ID>
       <Filename>gl_togo.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_togo\source\gl_togo.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU4</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU5</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>E:\el-clients\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>

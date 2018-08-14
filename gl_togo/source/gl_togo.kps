@@ -94,7 +94,7 @@
     <Keyboard>
       <Name>Pan-Togolais (Globalbility)</Name>
       <ID>gl_togo</ID>
-      <Version>0.8.1</Version>
+      <Version>0.8.2</Version>
       <Languages>
         <Language ID="fr-TG">French (Togo)</Language>
         <Language ID="ajg-Latn">Aja (Benin) (Latin)</Language>
