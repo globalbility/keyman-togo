@@ -97,43 +97,23 @@
       <Version>0.7</Version>
       <Languages>
         <Language ID="fr-TG">French (Togo)</Language>
-        <Language ID="adq-Latn">Adangbe (Latin)</Language>
-        <Language ID="ade-Latn">Adele (Latin)</Language>
-        <Language ID="ahl-Latn">Igo (Latin)</Language>
         <Language ID="ajg-Latn">Aja (Benin) (Latin)</Language>
-        <Language ID="aks">Akaselem</Language>
-        <Language ID="keu-Latn">Akebu (Latin)</Language>
         <Language ID="blo-Latn">Anii (Latin)</Language>
         <Language ID="kpo-Latn">Ikposo (Latin)</Language>
-        <Language ID="cko-Latn">Anufo (Latin)</Language>
-        <Language ID="ayg-Latn">Ginyanga (Latin)</Language>
-        <Language ID="bib-Latn">Bissa (Latin)</Language>
-        <Language ID="ntr-Latn">Delo (Latin)</Language>
         <Language ID="ee-Latn-TG">Ewe (Latin, Togo)</Language>
         <Language ID="fon-Latn">Fon (Latin)</Language>
         <Language ID="fue-Latn">Borgu Fulfulde (Latin)</Language>
         <Language ID="gej-Latn">Gen (Latin)</Language>
-        <Language ID="gux-Latn">Gourmanchéma (Latin)</Language>
         <Language ID="ife-Latn-TG">Ifè (Latin, Togo)</Language>
         <Language ID="kbp-Latn">Kabiyè (Latin)</Language>
-        <Language ID="xkb">Northern Nago</Language>
-        <Language ID="xon-Latn">Konkomba (Latin)</Language>
-        <Language ID="bqg-Latn">Bago-Kusuntu (Latin)</Language>
-        <Language ID="kus-Latn">Kusaal (Latin)</Language>
         <Language ID="las-Latn">Lama (Togo) (Latin)</Language>
         <Language ID="dop-Latn">Lukpa (Latin)</Language>
-        <Language ID="maw-Latn">Mampruli (Latin)</Language>
         <Language ID="mfq-Latn">Moba (Latin)</Language>
-        <Language ID="mos-Latn">Mossi (Latin)</Language>
         <Language ID="nmz-Latn">Nawdm (Latin)</Language>
         <Language ID="bud-Latn">Ntcham (Latin)</Language>
         <Language ID="gng-Latn">Ngangam (Latin)</Language>
-        <Language ID="mql-Latn">Mbelime (Latin)</Language>
-        <Language ID="tbz-Latn">Ditammari (Latin)</Language>
         <Language ID="kdh-Latn">Tem (Latin)</Language>
         <Language ID="soy-Latn">Miyobe (Latin)</Language>
-        <Language ID="beh-Latn">Biali (Latin)</Language>
-        <Language ID="xwl">Western Xwla Gbe</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
