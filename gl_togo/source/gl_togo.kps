@@ -96,24 +96,24 @@
       <ID>gl_togo</ID>
       <Version>0.8.3</Version>
       <Languages>
-        <Language ID="fr-TG">French (Togo)</Language>
-        <Language ID="ajg-Latn">Aja (Benin) (Latin)</Language>
-        <Language ID="blo-Latn">Anii (Latin)</Language>
-        <Language ID="kpo-Latn">Ikposo (Latin)</Language>
-        <Language ID="ee-Latn-TG">Ewe (Latin, Togo)</Language>
-        <Language ID="fon-Latn">Fon (Latin)</Language>
-        <Language ID="fue-Latn">Borgu Fulfulde (Latin)</Language>
-        <Language ID="gej-Latn">Gen (Latin)</Language>
-        <Language ID="ife-Latn-TG">Ifè (Latin, Togo)</Language>
-        <Language ID="kbp-Latn">Kabiyè (Latin)</Language>
-        <Language ID="las-Latn">Lama (Togo) (Latin)</Language>
-        <Language ID="dop-Latn">Lukpa (Latin)</Language>
-        <Language ID="mfq-Latn">Moba (Latin)</Language>
-        <Language ID="nmz-Latn">Nawdm (Latin)</Language>
-        <Language ID="bud-Latn">Ntcham (Latin)</Language>
-        <Language ID="gng-Latn">Ngangam (Latin)</Language>
-        <Language ID="kdh-Latn">Tem (Latin)</Language>
-        <Language ID="soy-Latn">Miyobe (Latin)</Language>
+        <Language ID="fr-TG">French</Language>
+        <Language ID="ajg-Latn">Aja</Language>
+        <Language ID="blo-Latn">Anii</Language>
+        <Language ID="kpo-Latn">Ikposo</Language>
+        <Language ID="ee-Latn-TG">Ewe</Language>
+        <Language ID="fon-Latn">Fon</Language>
+        <Language ID="fue-Latn">Borgu Fulfulde</Language>
+        <Language ID="gej-Latn">Gen</Language>
+        <Language ID="ife-Latn-TG">Ifè</Language>
+        <Language ID="kbp-Latn">Kabiyè</Language>
+        <Language ID="las-Latn">Lama</Language>
+        <Language ID="dop-Latn">Lukpa</Language>
+        <Language ID="mfq-Latn">Moba</Language>
+        <Language ID="nmz-Latn">Nawdm</Language>
+        <Language ID="bud-Latn">Ntcham</Language>
+        <Language ID="gng-Latn">Ngangam</Language>
+        <Language ID="kdh-Latn">Tem</Language>
+        <Language ID="soy-Latn">Miyobe</Language>
       </Languages>
     </Keyboard>
   </Keyboards>
