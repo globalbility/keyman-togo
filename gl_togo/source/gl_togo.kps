@@ -16,8 +16,8 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.8.1</Version>
-    <Name URL="">Pan-Togolais</Name>
+    <Version URL="">0.8.3</Version>
+    <Name URL="">TogoKey</Name>
     <Copyright URL="">© 2018 Globalbility</Copyright>
     <Author URL=""></Author>
     <WebSite URL=""></WebSite>
@@ -94,7 +94,7 @@
     <Keyboard>
       <Name>TogoKey</Name>
       <ID>gl_togo</ID>
-      <Version>0.8.2</Version>
+      <Version>0.8.3</Version>
       <Languages>
         <Language ID="fr-TG">French (Togo)</Language>
         <Language ID="ajg-Latn">Aja (Benin) (Latin)</Language>

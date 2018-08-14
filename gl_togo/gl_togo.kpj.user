@@ -76,36 +76,42 @@
   <MRU>
     <File>
       <ID>id_MRU0</ID>
+      <Filename>gl_togo.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility\keyman-togo\gl_togo\source\gl_togo.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU1</ID>
+      <ID>id_MRU2</ID>
       <Filename>gl_togo.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU2</ID>
+      <ID>id_MRU3</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility\old\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU4</ID>
       <Filename>gl_togo.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_togo\source\gl_togo.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU5</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU5</ID>
+      <ID>id_MRU6</ID>
       <Filename>gl_togo.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>E:\el-clients\globalbility_project\release\gl\gl_togo\source\gl_togo.kmn</FullPath>
