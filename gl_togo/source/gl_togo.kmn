@@ -9,10 +9,10 @@ c Developed by Enabling Languages for Globalbility
 c Released under the MIT license.
 
 store(&Version) "10.0"
-store(&NAME) 'Pan-Togolais (Globalbility)'
+store(&NAME) 'TogoKey'
 store(&COPYRIGHT) '© 2018 Globalbility'
 store(&VISUALKEYBOARD) 'gl_togo.kvks'
-store(&KEYBOARDVERSION) '0.8.2'
+store(&KEYBOARDVERSION) '0.8.3'
 store(&BITMAP) 'gl_togo.ico'
 store(&LAYOUTFILE) 'gl_togo.keyman-touch-layout'
 store(&TARGETS) 'any'
