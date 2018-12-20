@@ -12,7 +12,7 @@ store(&Version) "10.0"
 store(&NAME) 'TogoKey'
 store(&COPYRIGHT) '© 2018 Globalbility'
 store(&VISUALKEYBOARD) 'gl_togo.kvks'
-store(&KEYBOARDVERSION) '0.8.3'
+store(&KEYBOARDVERSION) '0.8.4'
 store(&BITMAP) 'gl_togo.ico'
 store(&LAYOUTFILE) 'gl_togo.keyman-touch-layout'
 store(&TARGETS) 'any'
@@ -21,7 +21,7 @@ begin Unicode > use(main)
 
 c === NULL KEYS ===
 store(nullKeys) [SHIFT K_BKQUOTE]
-                
+
 store(addNullKeys) [RALT K_BKQUOTE] [RALT K_1] [RALT K_P] [RALT K_S] \
                     [RALT K_K] [RALT K_L] [RALT K_oE2] [RALT K_X] [RALT K_C] [RALT K_M] [RALT K_COMMA]
 store(addNullKeysOSX) [LALT K_BKQUOTE] [LALT K_1] [LALT K_P] [LALT K_S] \
@@ -268,9 +268,9 @@ store(graveTouchOtherChar) U+0190 U+025B U+0196 U+0269 U+0186 U+0254 U+018E U+01
 c --- tilde U+0303 ---
 store(dkf007e) [K_SPACE] [K_Q] [SHIFT K_Q] [K_N] [SHIFT K_N] [K_O] [SHIFT K_O] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_U] [SHIFT K_U]                  c a A n N o O e E i I u U
 store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5 U+1EBD U+1EBC U+0129 U+0128 U+0169 U+0168                  c ~ ã Ã ñ Ñ õ Õ ẽ Ẽ ĩ Ĩ ũ Ũ
-store(dkf007eOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
-store(dkf007eOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
-store(dkt007eOther) U+025B U+0190 U+0254 U+0186 U+01DD U+018E    c ɛƐɔƆǝƎ
+store(dkf007eOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q]
+store(dkf007eOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q]
+store(dkt007eOther) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E    c ɛƐɩƖɔƆǝƎ
 c Touch related (longpress)
 store(tildeTouchKey) [T_A_04] [SHIFT T_A_04] [T_N_04] [SHIFT T_N_04] [T_O_04] [SHIFT T_O_04] [T_E_04] [SHIFT T_E_04] [T_I_04] [SHIFT T_I_04] [T_U_04] [SHIFT T_U_04]
 store(tildeTouchChar) U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5 U+1EBD U+1EBC U+0129 U+0128 U+0169 U+0168
@@ -287,14 +287,14 @@ store(diaeresisTouchChar) U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d
 c --- macron U+0304 ---
 store(dkf00af) [K_SPACE] [K_Q] [SHIFT K_Q] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]     c AaEeIiOoUu
 store(dkt00af) U+00af U+0101 U+0100 U+0113 U+0112 U+012B U+012A U+014D U+014C U+016B U+016A    c ¯ ā   Ā   ē   Ē   ī   Ī   ō   Ō   ū   Ū
-store(dkf00afOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_I] [SHIFT RALT K_I] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U]
-store(dkf00afOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_I] [SHIFT LALT K_I] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U]
-store(dkt00afOther) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1 c ɛƐɩƖɔƆǝƎʋƲʊƱ
+store(dkf00afOther) [RALT K_R] [SHIFT RALT K_R] [RALT K_O] [SHIFT RALT K_O] [RALT K_Q] [SHIFT RALT K_Q] [RALT K_V] [SHIFT RALT K_V] [RALT K_U] [SHIFT RALT K_U]
+store(dkf00afOtherOSX) [LALT K_R] [SHIFT LALT K_R] [LALT K_O] [SHIFT LALT K_O] [LALT K_Q] [SHIFT LALT K_Q] [LALT K_V] [SHIFT LALT K_V] [LALT K_U] [SHIFT LALT K_U]
+store(dkt00afOther) U+025B U+0190 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1 c ɛƐɔƆǝƎʋƲʊƱ
 c Touch related (longpress)
 store(macronTouchKey) [T_A_07] [SHIFT T_A_07] [T_E_07] [SHIFT T_E_07] [T_I_07] [SHIFT T_I_07] [T_O_07] [SHIFT T_O_07] [T_U_07] [SHIFT T_U_07]
 store(macronTouchChar) U+0101 U+0100 U+0113 U+0112 U+012B U+012A U+014D U+014C U+016B U+016A
-store(macronTouchOtherKey) [T_OPEN_E_07] [SHIFT T_OPEN_E_07] [T_IOTA_07] [SHIFT T_IOTA_07] [T_OPEN_O_07] [SHIFT T_OPEN_O_07] [T_TURNED_E_07] [SHIFT T_TURNED_E_07] [T_V_HOOK_07] [SHIFT T_V_HOOK_07] [T_UPSILON_07] [SHIFT T_UPSILON_07]
-store(macronTouchOtherChar) U+025B U+0190 U+0269 U+0196 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1
+store(macronTouchOtherKey) [T_OPEN_E_07] [SHIFT T_OPEN_E_07] [T_OPEN_O_07] [SHIFT T_OPEN_O_07] [T_TURNED_E_07] [SHIFT T_TURNED_E_07] [T_V_HOOK_07] [SHIFT T_V_HOOK_07] [T_UPSILON_07] [SHIFT T_UPSILON_07]
+store(macronTouchOtherChar) U+025B U+0190 U+0254 U+0186 U+01DD U+018E U+028B U+01B2 U+028A U+01B1
 
 c --- caron U+030C ---
 store(dkf02c7) [K_SPACE] [K_Q] [SHIFT K_Q] [K_E] [SHIFT K_E] [K_I] [SHIFT K_I] [K_O] [SHIFT K_O] [K_U] [SHIFT K_U]    c aAeEiIoOuU

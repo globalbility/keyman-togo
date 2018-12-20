@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>10.0.1113.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>10.0.1201.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
@@ -16,7 +16,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Version URL="">0.8.3</Version>
+    <Version URL="">0.8.4</Version>
     <Name URL="">TogoKey</Name>
     <Copyright URL="">© 2018 Globalbility</Copyright>
     <Author URL=""></Author>
@@ -94,7 +94,7 @@
     <Keyboard>
       <Name>TogoKey</Name>
       <ID>gl_togo</ID>
-      <Version>0.8.3</Version>
+      <Version>0.8.4</Version>
       <Languages>
         <Language ID="fr-TG">French (Togo)</Language>
         <Language ID="ajg-Latn">Aja (Benin) (Latin)</Language>

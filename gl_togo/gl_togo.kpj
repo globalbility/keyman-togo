@@ -10,7 +10,7 @@
       <ID>id_a2aaad01054e2563c302e5f22ec61544</ID>
       <Filename>gl_togo.kmn</Filename>
       <Filepath>source\gl_togo.kmn</Filepath>
-      <FileVersion>0.8.3</FileVersion>
+      <FileVersion>0.8.4</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>TogoKey</Name>
@@ -21,12 +21,12 @@
       <ID>id_2ff321f8743d19703d1e9d6b52567572</ID>
       <Filename>gl_togo.kps</Filename>
       <Filepath>source\gl_togo.kps</Filepath>
-      <FileVersion>0.8.3</FileVersion>
+      <FileVersion>0.8.4</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>TogoKey</Name>
         <Copyright>© 2018 Globalbility</Copyright>
-        <Version>0.8.3</Version>
+        <Version>0.8.4</Version>
       </Details>
     </File>
     <File>
