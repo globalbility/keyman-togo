@@ -38,7 +38,7 @@ function Keyboard_gl_togo()
   })(this.KV.KLS);
   this.KH='';
   this.KM=0;
-  this.KBVER="0.8.4";
+  this.KBVER="0.8.5";
   this.KMBM=modCodes.LCTRL | modCodes.RCTRL | modCodes.LALT | modCodes.RALT | modCodes.SHIFT /* 0x001F */;
   this.KVKD="T_EZH T_OPEN_E T_D_HOOK T_Y_HOOK T_UPSILON T_IOTA T_OPEN_O T_TURNED_E T_D_TAIL T_F_HOOK T_GAMMA T_H_03 T_N_LEFT_HOOK T_V_HOOK T_B_HOOK T_ENG T_I_STROKE T_PERIOD T_GUILLEMENT T_DBGUILLEMENT T_QUOTE T_DBQUOTE T_A_02 T_E_02 T_I_02 T_O_02 T_U_02 T_M_02 T_N_02 T_OPEN_E_02 T_IOTA_02 T_OPEN_O_02 T_TIRNED_E_02 T_TURNED_E_02 T_V_HOOK_02 T_UPSILON_02 T_ENG_02 T_A_03 T_E_03 T_I_03 T_O_03 T_U_03 T_OPEN_E_03 T_IOTA_03 T_OPEN_O_03 T_TURNED_E_03 T_V_HOOK_03 T_UPSILON_03 T_A_01 T_E_01 T_I_01 T_O_01 T_U_01 T_N_01 T_OPEN_E_01 T_IOTA_01 T_OPEN_O_01 T_TIRNED_E_01 T_TURNED_E_01 T_V_HOOK_01 T_UPSILON_01 T_M_01 T_ENG_01 T_A_04 T_N_04 T_O_04 T_E_04 T_I_04 T_U_04 T_OPEN_E_04 T_IOTA_04 T_OPEN_O_04 T_TURNED_E_04 T_A_08 T_E_08 T_I_08 T_O_08 T_U_08 T_Y_08 T_A_07 T_E_07 T_I_07 T_O_07 T_U_07 T_OPEN_E_07 T_OPEN_O_07 T_TURNED_E_07 T_V_HOOK_07 T_UPSILON_07 T_A_09 T_E_09 T_I_09 T_O_09 T_U_09 T_OPEN_E_09 T_IOTA_09 T_OPEN_O_09 T_TURNED_E_09 T_V_HOOK_09 T_UPSILON_09 T_O_06 T_U_06 T_A_06 T_E_06 T_I_06 T_OPEN_E_06 T_OPEN_O_06 T_TURNED_E_06 T_A_05 T_E_05 T_I_05 T_O_05 T_U_05 T_OPEN_E_05 T_OPEN_O_05 T_TURNED_E_05 T_C_10";
   this.KVKL={
@@ -2042,18 +2042,18 @@ function Keyboard_gl_togo()
   this.s204="touch";
   this.s205="touch";
   this.s206="touch";
-  this.KVER="10.0.1201.0";
+  this.KVER="10.0.1206.0";
   this.gs=function(t,e) {
     return this.g_main(t,e);
   };
   this.g_main=function(t,e) {
     var k=KeymanWeb,r=0,m=0;
-    if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&!k.KIFS(31,this.s176,t)) {   // Line 462
+    if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&!k.KIFS(31,this.s176,t)) {   // Line 462
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&!k.KIFS(31,this.s176,t)) {   // Line 462
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&!k.KIFS(31,this.s176,t)) {   // Line 462
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃́");
@@ -2078,12 +2078,12 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"ɛ̃́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&k.KIFS(31,this.s177,t)) {   // Line 463
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&k.KIFS(31,this.s177,t)) {   // Line 463
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&k.KIFS(31,this.s177,t)) {   // Line 463
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:0}])&&k.KIFS(31,this.s177,t)) {   // Line 463
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃́");
@@ -2128,7 +2128,7 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&!k.KIFS(31,this.s182,t)) {   // Line 470
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&!k.KIFS(31,this.s182,t)) {   // Line 470
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃́");
@@ -2153,7 +2153,7 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"ɛ̃́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&!k.KIFS(31,this.s182,t)) {   // Line 470
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&!k.KIFS(31,this.s182,t)) {   // Line 470
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃́");
@@ -2178,12 +2178,12 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&k.KIFS(31,this.s183,t)) {   // Line 471
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&k.KIFS(31,this.s183,t)) {   // Line 471
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&k.KIFS(31,this.s183,t)) {   // Line 471
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:0},{t:'d',d:3}])&&k.KIFS(31,this.s183,t)) {   // Line 471
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃́");
@@ -2208,7 +2208,7 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&!k.KIFS(31,this.s191,t)) {   // Line 482
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&!k.KIFS(31,this.s191,t)) {   // Line 482
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃̀");
@@ -2228,7 +2228,7 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃̀");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&!k.KIFS(31,this.s191,t)) {   // Line 482
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&!k.KIFS(31,this.s191,t)) {   // Line 482
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃̀");
@@ -2253,12 +2253,12 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&k.KIFS(31,this.s192,t)) {   // Line 483
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&k.KIFS(31,this.s192,t)) {   // Line 483
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&k.KIFS(31,this.s192,t)) {   // Line 483
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:3},{t:'d',d:2}])&&k.KIFS(31,this.s192,t)) {   // Line 483
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃̀");
@@ -2288,12 +2288,12 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃̀");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&!k.KIFS(31,this.s197,t)) {   // Line 489
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&!k.KIFS(31,this.s197,t)) {   // Line 489
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃̀");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&!k.KIFS(31,this.s197,t)) {   // Line 489
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&!k.KIFS(31,this.s197,t)) {   // Line 489
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃̀");
@@ -2328,12 +2328,12 @@ function Keyboard_gl_togo()
       k.KDC(2,t);
       k.KO(-1,t,"Ɔ̃̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&k.KIFS(31,this.s198,t)) {   // Line 490
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&k.KIFS(31,this.s198,t)) {   // Line 490
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"ǝ̃̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&k.KIFS(31,this.s198,t)) {   // Line 490
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(2,t,[{t:'d',d:2},{t:'d',d:3}])&&k.KIFS(31,this.s198,t)) {   // Line 490
       r=m=1;
       k.KDC(2,t);
       k.KO(-1,t,"Ǝ̃̀");
@@ -2398,12 +2398,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ɔ́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&!k.KIFS(31,this.s129,t)) {   // Line 393
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&!k.KIFS(31,this.s129,t)) {   // Line 393
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ́");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&!k.KIFS(31,this.s129,t)) {   // Line 393
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&!k.KIFS(31,this.s129,t)) {   // Line 393
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ́");
@@ -2493,12 +2493,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ʋ́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&k.KIFS(31,this.s130,t)) {   // Line 394
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&k.KIFS(31,this.s130,t)) {   // Line 394
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ́");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&k.KIFS(31,this.s130,t)) {   // Line 394
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:0}])&&k.KIFS(31,this.s130,t)) {   // Line 394
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ́");
@@ -2533,7 +2533,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ʊ̂");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&!k.KIFS(31,this.s137,t)) {   // Line 404
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&!k.KIFS(31,this.s137,t)) {   // Line 404
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̂");
@@ -2573,7 +2573,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ɔ̂");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&!k.KIFS(31,this.s137,t)) {   // Line 404
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&!k.KIFS(31,this.s137,t)) {   // Line 404
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̂");
@@ -2618,12 +2618,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ɔ̂");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&k.KIFS(31,this.s138,t)) {   // Line 405
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&k.KIFS(31,this.s138,t)) {   // Line 405
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̂");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&k.KIFS(31,this.s138,t)) {   // Line 405
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:1}])&&k.KIFS(31,this.s138,t)) {   // Line 405
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̂");
@@ -2683,12 +2683,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ʊ̀");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&!k.KIFS(31,this.s145,t)) {   // Line 415
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&!k.KIFS(31,this.s145,t)) {   // Line 415
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̀");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&!k.KIFS(31,this.s145,t)) {   // Line 415
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&!k.KIFS(31,this.s145,t)) {   // Line 415
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̀");
@@ -2773,7 +2773,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ŋ̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&k.KIFS(31,this.s146,t)) {   // Line 416
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&k.KIFS(31,this.s146,t)) {   // Line 416
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̀");
@@ -2803,7 +2803,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ɩ̀");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&k.KIFS(31,this.s146,t)) {   // Line 416
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:2}])&&k.KIFS(31,this.s146,t)) {   // Line 416
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̀");
@@ -2833,7 +2833,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ɔ̃");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&!k.KIFS(31,this.s153,t)) {   // Line 426
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&!k.KIFS(31,this.s153,t)) {   // Line 426
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̃");
@@ -2843,7 +2843,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ɔ̃");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&!k.KIFS(31,this.s153,t)) {   // Line 426
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&!k.KIFS(31,this.s153,t)) {   // Line 426
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̃");
@@ -2898,12 +2898,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ɛ̃");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&k.KIFS(31,this.s154,t)) {   // Line 427
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&k.KIFS(31,this.s154,t)) {   // Line 427
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̃");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&k.KIFS(31,this.s154,t)) {   // Line 427
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:3}])&&k.KIFS(31,this.s154,t)) {   // Line 427
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̃");
@@ -2943,12 +2943,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ʋ̄");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&!k.KIFS(31,this.s160,t)) {   // Line 439
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&!k.KIFS(31,this.s160,t)) {   // Line 439
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̄");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&!k.KIFS(31,this.s160,t)) {   // Line 439
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&!k.KIFS(31,this.s160,t)) {   // Line 439
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̄");
@@ -2983,12 +2983,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ɔ̄");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&k.KIFS(31,this.s161,t)) {   // Line 440
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&k.KIFS(31,this.s161,t)) {   // Line 440
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̄");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&k.KIFS(31,this.s161,t)) {   // Line 440
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:5}])&&k.KIFS(31,this.s161,t)) {   // Line 440
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̄");
@@ -3078,12 +3078,12 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"ʋ̌");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&!k.KIFS(31,this.s168,t)) {   // Line 450
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&!k.KIFS(31,this.s168,t)) {   // Line 450
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̌");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&!k.KIFS(31,this.s168,t)) {   // Line 450
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&!k.KIFS(31,this.s168,t)) {   // Line 450
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̌");
@@ -3138,7 +3138,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ɔ̌");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&k.KIFS(31,this.s169,t)) {   // Line 451
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&k.KIFS(31,this.s169,t)) {   // Line 451
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"ǝ̌");
@@ -3153,7 +3153,7 @@ function Keyboard_gl_togo()
       k.KDC(1,t);
       k.KO(-1,t,"Ʋ̌");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&k.KIFS(31,this.s169,t)) {   // Line 451
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KFCM(1,t,[{t:'d',d:6}])&&k.KIFS(31,this.s169,t)) {   // Line 451
       r=m=1;
       k.KDC(1,t);
       k.KO(-1,t,"Ǝ̌");
@@ -3321,7 +3321,7 @@ function Keyboard_gl_togo()
       k.KDC(0,t);
       k.KO(-1,t,"ʒ");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_Q /* 0x51 */)&&!k.KIFS(31,this.s118,t)) {   // Line 354
+    else if(k.KKM(e, modCodes.RALT | modCodes.VIRTUAL_KEY /* 0x4008 */, keyCodes.K_A /* 0x41 */)&&!k.KIFS(31,this.s118,t)) {   // Line 354
       r=m=1;
       k.KDC(0,t);
       k.KO(-1,t,"ǝ");
@@ -3346,7 +3346,7 @@ function Keyboard_gl_togo()
       k.KDC(0,t);
       k.KO(-1,t,"ɗ");
     }
-    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_Q /* 0x51 */)&&!k.KIFS(31,this.s118,t)) {   // Line 354
+    else if(k.KKM(e, modCodes.RALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4018 */, keyCodes.K_A /* 0x41 */)&&!k.KIFS(31,this.s118,t)) {   // Line 354
       r=m=1;
       k.KDC(0,t);
       k.KO(-1,t,"Ǝ");
@@ -3531,12 +3531,12 @@ function Keyboard_gl_togo()
       k.KDC(0,t);
       k.KO(-1,t,"ɖ");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_Q /* 0x51 */)&&k.KIFS(31,this.s119,t)) {   // Line 355
+    else if(k.KKM(e, modCodes.LALT | modCodes.SHIFT | modCodes.VIRTUAL_KEY /* 0x4014 */, keyCodes.K_A /* 0x41 */)&&k.KIFS(31,this.s119,t)) {   // Line 355
       r=m=1;
       k.KDC(0,t);
       k.KO(-1,t,"Ǝ");
     }
-    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_Q /* 0x51 */)&&k.KIFS(31,this.s119,t)) {   // Line 355
+    else if(k.KKM(e, modCodes.LALT | modCodes.VIRTUAL_KEY /* 0x4004 */, keyCodes.K_A /* 0x41 */)&&k.KIFS(31,this.s119,t)) {   // Line 355
       r=m=1;
       k.KDC(0,t);
       k.KO(-1,t,"ǝ");
